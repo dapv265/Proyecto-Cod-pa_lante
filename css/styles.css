@@ -18,6 +18,7 @@
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 body{
@@ -36,6 +37,10 @@ a {
     color: inherit;
 }
 
+h2{
+    font-size: 28px;
+}
+
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
@@ -44,13 +49,16 @@ main {
     margin: auto;
 }
 
-header{
+header .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
-    box-shadow: 0px 1px 10px gray;
-    position: sticky;
+    padding: 5%;
+    box-shadow: 0px 0px 10px gray;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: #fbfbfb;
 }
 .header img {
     height: 75px;
@@ -60,13 +68,14 @@ header{
 header .menu .menu_lista .menu_item{
     display: inline-block;
     padding: 20px;
+    font-weight: bold;
 
 }
 
- main article img{
+ main article .gatito img{
     border-radius: 100%;
-    width: 400px;
-    height: 400px;
+    width: 40vh;
+    height: 40vh;
     margin: 40px;
 }
 
@@ -75,10 +84,18 @@ main .Article_inicio{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 90px;
 }
 
 main .Article_inicio h2{
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 2.25rem;
+    margin: auto;
+    text-align: center;
 }
 main .Article_inicio p{
     text-align: center;
@@ -86,13 +103,59 @@ main .Article_inicio p{
 
 main .Article_inicio a{
     margin-top: 20px;
+    margin-bottom: 200px;
     padding: 1em;
     background-color: #af599e;
     border-radius: 30px;
     color: #fbfbfb;
+    font-weight: bold;
+    font-size: 20px;
 }
 
+main .Article_Contacto .Caja_Hablemos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(175, 89, 158, 0.3);
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+}
+main .Article_Contacto .Caja_Hablemos h2{
+    padding-bottom: 20px;
+}
 
+main .Article_Contacto .Caja_Hablemos{
+    margin-bottom: 60px;
+}
+main .Article_Contacto p{
+    text-align: center;
+}
+
+main .Article_Contacto .Caja_imagenes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+
+main .Article_Contacto .Caja_imagenes img{
+    height: 10vh;
+}
+ footer .Caja_foot{
+    background-color: #af599e;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+ }
+
+  footer .Caja_foot p{
+    padding-top: 40px;
+    color: #fbfbfb;
+    font-weight: bold;
+  }
 
 
 
