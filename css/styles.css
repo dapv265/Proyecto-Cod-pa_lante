@@ -14,6 +14,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
@@ -59,6 +60,7 @@ header .nav{
     height: 90px;
     position: fixed;
     background-color: #fbfbfb;
+    
 }
 .header img {
     height: 75px;
@@ -74,8 +76,8 @@ header .menu .menu_lista .menu_item{
 
  main article .gatito img{
     border-radius: 100%;
-    width: 40vh;
-    height: 40vh;
+    width: 400px;
+    height: 400px;
     margin: 40px;
 }
 
@@ -86,7 +88,7 @@ main .Article_inicio{
     align-items: center;
     max-width: 80%;
     margin: auto;
-    padding-top: 90px;
+    padding-top: 120px;
 }
 
 main .Article_inicio h2{
@@ -119,7 +121,7 @@ main .Article_Contacto .Caja_Hablemos{
     align-items: center;
     background-color: rgba(175, 89, 158, 0.3);
     height: 300px;
-    width: 80%;
+    width: 75%;
     margin: auto;
     border-radius: 30px;
 }
